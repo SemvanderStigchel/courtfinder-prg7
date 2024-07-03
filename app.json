@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "courtfinder",
-    "slug": "courtfinder",
+    "name": "prg-7-case-3",
+    "slug": "prg-7-case-3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow CourtFinder to use your location."
+        }
+      ]
+    ]
   }
 }
